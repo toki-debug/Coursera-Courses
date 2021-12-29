@@ -16,8 +16,8 @@ h1{
 .container{
     padding-top:35px;
     position: relative;
-    background-color: darkgray;
-    outline: 3px solid black;
+    background-color: #999999;
+    outline: 4px solid black;
     outline-offset: 0px;    
 }
 
@@ -27,7 +27,7 @@ h1{
     position: absolute;
     top: 0px;
     right: 0px;
-    outline: 2px solid black;
+    outline: 3px solid black;
     outline-offset: 0px;
     height: auto;
     margin: auto;
@@ -36,16 +36,16 @@ h1{
 }
 
 #Chicken{
-    background-color:plum;  
+    background-color:#D59898;  
 }   
 
 #Beef{
-    background-color:rgb(192, 75, 75);  
-    color: white;
+    background-color:#C14543;  
+    color: #FEFEFA;
 } 
 
 #Sushi{
-    background-color:yellowgreen;
+    background-color:#E5D198;
     
 }
    
