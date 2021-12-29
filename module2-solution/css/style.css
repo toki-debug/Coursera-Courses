@@ -1,0 +1,84 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.row{
+    width:100%;
+}
+
+h1{
+    text-align: center;
+    font-size: 175%;
+}
+
+.container{
+    padding-top:35px;
+    position: relative;
+    background-color: darkgray;
+    outline: 3px solid black;
+    outline-offset: 0px;    
+}
+
+.absolute{
+    padding:10px 40px 10px 40px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    outline: 2px solid black;
+    outline-offset: 0px;
+    height: auto;
+    margin: auto;
+    font-size: 125%;
+    
+}
+
+#Chicken{
+    background-color:plum;  
+}   
+
+#Beef{
+    background-color:rgb(192, 75, 75);  
+} 
+
+#Sushi{
+    background-color:yellowgreen;
+    
+}
+   
+
+/*Desktop View*/
+@media (min-width: 992px){
+    .col-dd-3{
+        height: 100%; 
+        width: 33%;
+        padding: 5px 5px 5px 5px;
+        float: left;  
+    }
+}
+/*Tablet View*/
+@media (min-width: 768px ) and (max-width: 991px){
+    .col-td-6{
+        height: 100%; 
+        width: 50%;
+        padding: 5px;
+        float: left;  
+    }
+    .col-td-12{
+        height: 100%; 
+        width: 100%;
+        padding: 5px;
+        float: left; 
+    }
+}
+/*Mobile View*/
+@media (max-width:767px){
+    .col-md-12{
+        height: 100%; 
+        width: 100%;
+        padding: 5px;
+        float: left;  
+    }
+}
