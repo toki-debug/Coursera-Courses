@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 300%;
+}
+
+.titulo{
+    font-size: 150%;
+}
+.my-container{
+    background-color: #999999;
+    margin-right: auto;
+    margin-left: auto;
+} 
+
+.p {
+    font-size: 20px;
+}
+.navbar-brand h1{
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 30px;
+    color: blueviolet;
+    text-shadow: 1px 1px 1px #222;
+}
+
+#nav-list{
+    margin-top: 5px;
+}
+#nav-list a{
+    font-size: 7px;
+    color: gray;
+    text-align: center;
+}
+
+
+#nav-list li{
+    border-bottom: 1px solid black;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+    .col-md-12 {
+        padding: 10px 10px 10px 10px;
+        float: left;
+        width: 100%;
+    }
+}
